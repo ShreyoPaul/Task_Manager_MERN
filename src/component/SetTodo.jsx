@@ -282,18 +282,18 @@ const SetTodo = () => {
                 <div className='text-xl '>
                     <div className='text-lg font-semibold flex flex-row  '>Task<div className='text-red-400 pr-1'>*</div>:</div>
                     <input className='p-3 py-2  outline-gray-400 text-lg border rounded w-[300px] md:w-[550px] '
-                        onChange={(e) => setTask(e.target.value)} value={task} placeholder='Enter yout task' />
+                        onChange={(e) => setTask(e.target.value)} value={task} placeholder='Enter your task' />
                 </div>
 
                 <div className='text-xl '>
                     <div className='text-lg font-semibold flex flex-row  '>Description<div className='text-red-400 pr-1'>*</div>:</div>
                     <textarea style={{ resize: 'none' }} className='p-3 py-2  outline-gray-400 text-lg border rounded md:w-[550px] w-[300px]'
-                        onChange={(e) => setDesc(e.target.value)} value={desc} placeholder='Enter yout task' />
+                        onChange={(e) => setDesc(e.target.value)} value={desc} placeholder='Enter your description' />
                 </div>
                 <div className='text-xl '>
                     <div className='text-lg font-semibold flex flex-row  '>Pic URL : (If any)</div>
                     <input className='p-3 py-2  outline-gray-400 text-lg border rounded md:w-[550px] w-[300px]'
-                        onChange={(e) => setPic(e.target.value)} value={pic} placeholder='Enter yout task' />
+                        onChange={(e) => setPic(e.target.value)} value={pic} placeholder='Enter your pic url' />
                 </div>
 
                 <div className='flex md:flex-row flex-col gap-5 mt-3'>
